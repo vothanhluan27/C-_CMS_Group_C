@@ -1,5 +1,8 @@
 <?php
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8_20_LePhuongLoc
 /**
  * Displays the footer widget area.
  *
@@ -8,6 +11,7 @@
  * @since Twenty Twenty-One 1.0
  */
 
+<<<<<<< HEAD
 if (is_active_sidebar('sidebar-1')) : ?>
 
 <<<<<<< HEAD
@@ -48,4 +52,13 @@ if (is_active_sidebar('sidebar-1')) : ?>
 >>>>>>> 3_20_LePhuongLoc
 
 <?php
+=======
+if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
+
+	<aside class="widget-area">
+		<?php dynamic_sidebar( 'sidebar-1' ); ?>
+	</aside><!-- .widget-area -->
+
+	<?php
+>>>>>>> 8_20_LePhuongLoc
 endif;

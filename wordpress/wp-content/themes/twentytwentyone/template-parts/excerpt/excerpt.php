@@ -1,5 +1,8 @@
 <?php
+<<<<<<< HEAD
 
+=======
+>>>>>>> 8_20_LePhuongLoc
 /**
  * Show the excerpt.
  *
@@ -11,5 +14,8 @@
  */
 
 the_excerpt();
+<<<<<<< HEAD
 
 ?>
+=======
+>>>>>>> 8_20_LePhuongLoc
