@@ -2572,11 +2572,16 @@ function comment_form( $args = array(), $post = null ) {
 	 *
 	 * @param string[] $fields Array of the default comment fields.
 	 */
+<<<<<<< HEAD
 	$fields = apply_filters('comment_form_default_fields', $fields);
+=======
+	$fields = apply_filters( 'comment_form_default_fields', $fields );
+>>>>>>> 13_20_LePhuongLoc
 
 	$defaults = array(
 		'fields'               => $fields,
 		'comment_field'        => sprintf(
+<<<<<<< HEAD
 			// '<p class="comment-form-comment">%s %s</p>',
 			// sprintf(
 			// 	'<label for="comment">%s%s</label>',
@@ -2613,11 +2618,21 @@ function comment_form( $args = array(), $post = null ) {
 					</div>
 				</section>') : sprintf('<textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525"' . $required_attribute . '></textarea>'),
 
+=======
+			'<p class="comment-form-comment">%s %s</p>',
+			sprintf(
+				'<label for="comment">%s%s</label>',
+				_x( 'Comment', 'noun' ),
+				$required_indicator
+			),
+			'<textarea id="comment" name="comment" cols="45" rows="8" maxlength="65525"' . $required_attribute . '></textarea>'
+>>>>>>> 13_20_LePhuongLoc
 		),
 		'must_log_in'          => sprintf(
 			'<p class="must-log-in">%s</p>',
 			sprintf(
 				/* translators: %s: Login URL. */
+<<<<<<< HEAD
 				__('You must be <a href="%s">logged in</a> to post a comment.'),
 				/** This filter is documented in wp-includes/link-template.php */
 				wp_login_url(apply_filters('the_permalink', get_permalink($post_id), $post_id))
@@ -2632,6 +2647,22 @@ function comment_form( $args = array(), $post = null ) {
 				get_edit_user_link(),
 				/** This filter is documented in wp-includes/link-template.php */
 				wp_logout_url(apply_filters('the_permalink', get_permalink($post_id), $post_id))
+=======
+				__( 'You must be <a href="%s">logged in</a> to post a comment.' ),
+				/** This filter is documented in wp-includes/link-template.php */
+				wp_login_url( apply_filters( 'the_permalink', get_permalink( $post_id ), $post_id ) )
+			)
+		),
+		'logged_in_as'         => sprintf(
+			'<p class="logged-in-as">%s%s</p>',
+			sprintf(
+				/* translators: 1: User name, 2: Edit user link, 3: Logout URL. */
+				__( 'Logged in as %1$s. <a href="%2$s">Edit your profile</a>. <a href="%3$s">Log out?</a>' ),
+				$user_identity,
+				get_edit_user_link(),
+				/** This filter is documented in wp-includes/link-template.php */
+				wp_logout_url( apply_filters( 'the_permalink', get_permalink( $post_id ), $post_id ) )
+>>>>>>> 13_20_LePhuongLoc
 			),
 			$required_text
 		),
@@ -2639,33 +2670,57 @@ function comment_form( $args = array(), $post = null ) {
 			'<p class="comment-notes">%s%s</p>',
 			sprintf(
 				'<span id="email-notes">%s</span>',
+<<<<<<< HEAD
 				__('Your email address will not be published.')
+=======
+				__( 'Your email address will not be published.' )
+>>>>>>> 13_20_LePhuongLoc
 			),
 			$required_text
 		),
 		'comment_notes_after'  => '',
+<<<<<<< HEAD
 		'action'               => site_url('/wp-comments-post.php'),
+=======
+		'action'               => site_url( '/wp-comments-post.php' ),
+>>>>>>> 13_20_LePhuongLoc
 		'id_form'              => 'commentform',
 		'id_submit'            => 'submit',
 		'class_container'      => 'comment-respond',
 		'class_form'           => 'comment-form',
+<<<<<<< HEAD
 		'class_submit'         => 'btn btn-primary',
 		'name_submit'          => 'submit',
 		'title_reply'          => __('Leave a Reply'),
 		/* translators: %s: Author of the comment being replied to. */
 		'title_reply_to'       => __('Leave a Reply to %s'),
+=======
+		'class_submit'         => 'submit',
+		'name_submit'          => 'submit',
+		'title_reply'          => __( 'Leave a Reply' ),
+		/* translators: %s: Author of the comment being replied to. */
+		'title_reply_to'       => __( 'Leave a Reply to %s' ),
+>>>>>>> 13_20_LePhuongLoc
 		'title_reply_before'   => '<h3 id="reply-title" class="comment-reply-title">',
 		'title_reply_after'    => '</h3>',
 		'cancel_reply_before'  => ' <small>',
 		'cancel_reply_after'   => '</small>',
+<<<<<<< HEAD
 		'cancel_reply_link'    => __('Cancel reply'),
 		'label_submit'         => __('Share'),
+=======
+		'cancel_reply_link'    => __( 'Cancel reply' ),
+		'label_submit'         => __( 'Post Comment' ),
+>>>>>>> 13_20_LePhuongLoc
 		'submit_button'        => '<input name="%1$s" type="submit" id="%2$s" class="%3$s" value="%4$s" />',
 		'submit_field'         => '<p class="form-submit">%1$s %2$s</p>',
 		'format'               => 'xhtml',
 	);
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 13_20_LePhuongLoc
 	/**
 	 * Filters the comment form default arguments.
 	 *

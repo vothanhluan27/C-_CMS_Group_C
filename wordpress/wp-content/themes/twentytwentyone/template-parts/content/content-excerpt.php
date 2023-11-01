@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
 </script>
@@ -558,6 +559,8 @@ $post_month = get_the_date('m', $post->ID)
 </div>
 >>>>>>> 5_18_PhamHuuKy
 =======
+=======
+>>>>>>> 13_20_LePhuongLoc
 <?php
 /**
  * Template part for displaying post archives and search results
@@ -583,4 +586,7 @@ $post_month = get_the_date('m', $post->ID)
 		<?php twenty_twenty_one_entry_meta_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-${ID} -->
+<<<<<<< HEAD
 >>>>>>> 8_20_LePhuongLoc
+=======
+>>>>>>> 13_20_LePhuongLoc

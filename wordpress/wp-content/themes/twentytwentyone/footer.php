@@ -1,8 +1,11 @@
 <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> 8_20_LePhuongLoc
+=======
+>>>>>>> 13_20_LePhuongLoc
 /**
  * The template for displaying the footer
  *
@@ -16,6 +19,7 @@
  */
 
 ?>
+<<<<<<< HEAD
 <<<<<<< HEAD
 </main><!-- #main -->
 </div><!-- #primary -->
@@ -81,6 +85,8 @@
 =======
 >>>>>>> 3_20_LePhuongLoc
 =======
+=======
+>>>>>>> 13_20_LePhuongLoc
 			</main><!-- #main -->
 		</div><!-- #primary -->
 	</div><!-- #content -->
@@ -141,7 +147,10 @@
 
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
+<<<<<<< HEAD
 >>>>>>> 8_20_LePhuongLoc
+=======
+>>>>>>> 13_20_LePhuongLoc
 
 </div><!-- #page -->
 
@@ -149,8 +158,12 @@
 
 </body>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 </html>
 =======
 </html>
 >>>>>>> 8_20_LePhuongLoc
+=======
+</html>
+>>>>>>> 13_20_LePhuongLoc

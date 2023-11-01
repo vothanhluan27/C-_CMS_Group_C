@@ -191,7 +191,11 @@ class WP_Query {
 	 * @since 2.7.0
 	 * @var int
 	 */
+<<<<<<< HEAD
 	public $max_num_comment_pages = 1;
+=======
+	public $max_num_comment_pages = 0;
+>>>>>>> 13_20_LePhuongLoc
 
 	/**
 	 * Signifies whether the current query is for a single post.
@@ -534,7 +538,11 @@ class WP_Query {
 		$this->current_comment       = -1;
 		$this->found_posts           = 0;
 		$this->max_num_pages         = 0;
+<<<<<<< HEAD
 		$this->max_num_comment_pages = 1;
+=======
+		$this->max_num_comment_pages = 0;
+>>>>>>> 13_20_LePhuongLoc
 
 		$this->init_query_flags();
 	}
