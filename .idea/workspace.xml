@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+<<<<<<< HEAD
+=======
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+>>>>>>> 11_18_PhamHuuKy
   <component name="ChangeListManager">
     <list default="true" id="351e66fa-dc1a-484f-ba0b-dc32f20b59a6" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyone/header.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyone/header.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyone/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyone/style.css" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyone/template-parts/content/content-excerpt.php" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyone/template-parts/content/content-page.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-content/themes/twentytwentyone/template-parts/content/content-page.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wordpress/wp-includes/class-wp-query.php" beforeDir="false" afterPath="$PROJECT_DIR$/wordpress/wp-includes/class-wp-query.php" afterDir="false" />
+>>>>>>> 11_18_PhamHuuKy
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,7 +28,11 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+<<<<<<< HEAD
         <entry key="$PROJECT_DIR$" value="main" />
+=======
+        <entry key="$PROJECT_DIR$" value="10_18_PhamHuuKy" />
+>>>>>>> 11_18_PhamHuuKy
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,6 +49,7 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+<<<<<<< HEAD
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -44,6 +60,22 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+=======
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "11__18__PhamHuuKy",
+    "last_opened_file_path": "C:/wamp64/www/C-_CMS_Group_C",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+>>>>>>> 11_18_PhamHuuKy
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -53,7 +85,11 @@
       <option name="presentableId" value="Default" />
       <updated>1698732431467</updated>
       <workItem from="1698732432592" duration="399000" />
+<<<<<<< HEAD
       <workItem from="1698732836991" duration="180000" />
+=======
+      <workItem from="1698732836991" duration="702000" />
+>>>>>>> 11_18_PhamHuuKy
     </task>
     <servers />
   </component>
