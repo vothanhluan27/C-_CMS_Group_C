@@ -6,11 +6,19 @@
 <IfModule mod_rewrite.c>
 RewriteEngine On
 RewriteRule .* - [E=HTTP_AUTHORIZATION:%{HTTP:Authorization}]
+<<<<<<< HEAD
 RewriteBase /CMS-Demo/Demo%20&%20Test/wordpress/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /CMS-Demo/Demo%20&%20Test/wordpress/index.php [L]
+=======
+RewriteBase /C-_CMS_Group_C/wordpress/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /C-_CMS_Group_C/wordpress/index.php [L]
+>>>>>>> 3_20_LePhuongLoc
 </IfModule>
 
 # END WordPress

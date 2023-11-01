@@ -18,6 +18,7 @@
 </div><!-- #content -->
 
 <?php get_template_part('template-parts/footer/footer-widgets'); ?>
+<<<<<<< HEAD
 
 <footer id="colophon" class="site-footer">
 
@@ -73,6 +74,8 @@
 
 	</div><!-- .site-info -->
 </footer><!-- #colophon -->
+=======
+>>>>>>> 3_20_LePhuongLoc
 
 </div><!-- #page -->
 
