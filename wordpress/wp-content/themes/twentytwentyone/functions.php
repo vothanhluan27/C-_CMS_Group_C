@@ -347,8 +347,6 @@ add_action( 'after_setup_theme', 'twenty_twenty_one_setup' );
  *
  * @return void
  */
-<<<<<<< HEAD
-<<<<<<< HEAD
 
  //FOOTER 
 function twenty_twenty_one_widgets_init() {
@@ -357,18 +355,6 @@ function twenty_twenty_one_widgets_init() {
 	register_sidebar(
 		array(
 			'name'          => esc_html__( 'Footer #1', 'twentytwentyone' ),
-=======
-=======
->>>>>>> 13_20_LePhuongLoc
-function twenty_twenty_one_widgets_init() {
-
-	register_sidebar(
-		array(
-			'name'          => esc_html__( 'Footer', 'twentytwentyone' ),
-<<<<<<< HEAD
->>>>>>> 8_20_LePhuongLoc
-=======
->>>>>>> 13_20_LePhuongLoc
 			'id'            => 'sidebar-1',
 			'description'   => esc_html__( 'Add widgets here to appear in your footer.', 'twentytwentyone' ),
 			'before_widget' => '<section id="%1$s" class="widget %2$s">',
@@ -377,8 +363,6 @@ function twenty_twenty_one_widgets_init() {
 			'after_title'   => '</h2>',
 		)
 	);
-<<<<<<< HEAD
-<<<<<<< HEAD
 
 	//FOOTER 2
 	register_sidebar(
@@ -422,16 +406,6 @@ function twenty_twenty_one_widgets_init() {
 add_action( 'widgets_init', 'twenty_twenty_one_widgets_init' );
 
 
-=======
-}
-add_action( 'widgets_init', 'twenty_twenty_one_widgets_init' );
-
->>>>>>> 8_20_LePhuongLoc
-=======
-}
-add_action( 'widgets_init', 'twenty_twenty_one_widgets_init' );
-
->>>>>>> 13_20_LePhuongLoc
 /**
  * Sets the content width in pixels, based on the theme's design and stylesheet.
  *

@@ -1,11 +1,5 @@
 <?php
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> 8_20_LePhuongLoc
-=======
->>>>>>> 13_20_LePhuongLoc
 /**
  * Displays the footer widget area.
  *
@@ -14,18 +8,8 @@
  * @since Twenty Twenty-One 1.0
  */
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 if (is_active_sidebar('sidebar-1')) : ?>
 
-<<<<<<< HEAD
-	<aside class="widget-area">
-		<?php dynamic_sidebar( 'sidebar-1' ); ?>
-		<?php dynamic_sidebar( 'sidebar-2' ); ?>
-		<?php dynamic_sidebar( 'sidebar-3' ); ?>
-		<?php dynamic_sidebar( 'sidebar-4' ); ?>
-	</aside><!-- .widget-area -->
-=======
 	<div class="custom-footer">
 		<div class="container">
 			<aside class="widget-area">
@@ -53,21 +37,6 @@ if (is_active_sidebar('sidebar-1')) : ?>
 			</div>
 		</div>
 	</div>
->>>>>>> 3_20_LePhuongLoc
 
 <?php
-=======
-=======
->>>>>>> 13_20_LePhuongLoc
-if ( is_active_sidebar( 'sidebar-1' ) ) : ?>
-
-	<aside class="widget-area">
-		<?php dynamic_sidebar( 'sidebar-1' ); ?>
-	</aside><!-- .widget-area -->
-
-	<?php
-<<<<<<< HEAD
->>>>>>> 8_20_LePhuongLoc
-=======
->>>>>>> 13_20_LePhuongLoc
 endif;

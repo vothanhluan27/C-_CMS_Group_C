@@ -1,11 +1,5 @@
 <?php
-<<<<<<< HEAD
-<<<<<<< HEAD
 
-=======
->>>>>>> 8_20_LePhuongLoc
-=======
->>>>>>> 13_20_LePhuongLoc
 /**
  * Template part for displaying posts
  *
@@ -20,23 +14,10 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
-<<<<<<< HEAD
-<<<<<<< HEAD
 		<?php if (is_singular()) : ?>
 			<?php the_title('<h1 class="entry-title default-max-width">', '</h1>'); ?>
 		<?php else : ?>
 			<?php the_title(sprintf('<h2 class="entry-title default-max-width"><a href="%s">', esc_url(get_permalink())), '</a></h2>'); ?>
-=======
-=======
->>>>>>> 13_20_LePhuongLoc
-		<?php if ( is_singular() ) : ?>
-			<?php the_title( '<h1 class="entry-title default-max-width">', '</h1>' ); ?>
-		<?php else : ?>
-			<?php the_title( sprintf( '<h2 class="entry-title default-max-width"><a href="%s">', esc_url( get_permalink() ) ), '</a></h2>' ); ?>
-<<<<<<< HEAD
->>>>>>> 8_20_LePhuongLoc
-=======
->>>>>>> 13_20_LePhuongLoc
 		<?php endif; ?>
 
 		<?php twenty_twenty_one_post_thumbnail(); ?>
@@ -50,31 +31,16 @@
 
 		wp_link_pages(
 			array(
-<<<<<<< HEAD
-<<<<<<< HEAD
 				'before'   => '<nav class="page-links" aria-label="' . esc_attr__('Page', 'twentytwentyone') . '">',
 				'after'    => '</nav>',
 				/* translators: %: Page number. */
 				'pagelink' => esc_html__('Page %', 'twentytwentyone'),
-=======
-=======
->>>>>>> 13_20_LePhuongLoc
-				'before'   => '<nav class="page-links" aria-label="' . esc_attr__( 'Page', 'twentytwentyone' ) . '">',
-				'after'    => '</nav>',
-				/* translators: %: Page number. */
-				'pagelink' => esc_html__( 'Page %', 'twentytwentyone' ),
-<<<<<<< HEAD
->>>>>>> 8_20_LePhuongLoc
-=======
->>>>>>> 13_20_LePhuongLoc
 			)
 		);
 
 		?>
 	</div><!-- .entry-content -->
 
-<<<<<<< HEAD
-<<<<<<< HEAD
 	<div class="col-md-4 col-xs-9 shortdesc">
 		<?php
 		get_template_part('template-parts/entry-header');
@@ -92,18 +58,7 @@
 		}
 		?>
 	</div>
-=======
->>>>>>> 13_20_LePhuongLoc
 	<footer class="entry-footer default-max-width">
 		<?php twenty_twenty_one_entry_meta_footer(); ?>
 	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->
-<<<<<<< HEAD
-=======
-	<footer class="entry-footer default-max-width">
-		<?php twenty_twenty_one_entry_meta_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-<?php the_ID(); ?> -->
->>>>>>> 8_20_LePhuongLoc
-=======
->>>>>>> 13_20_LePhuongLoc

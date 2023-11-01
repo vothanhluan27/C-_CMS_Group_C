@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
 </script>
@@ -415,57 +413,25 @@
 	}
 </style> -->
 
+<style>
+	.line{
+		width: 50px;
+	}
+</style>
 <?php
+/**
+ * Template part for displaying post archives and search results
+ *
+ * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
+ *
+ * @package WordPress
+ * @subpackage Twenty_Twenty_One
+ * @since Twenty Twenty-One 1.0
+ */
 
-$post = get_post();
-$date = $post->post_date;
-$day = date("j", strtotime($date));
-$month = date("F", strtotime($date));
-
-$post_date = get_the_date('d', $post->ID);
-$post_month = get_the_date('m', $post->ID)
 ?>
-<div class="container">
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-6">
-            <div class="list_new_view">
-                <div class="row">
-                    <div class="col-md-5">
-                        <div class="top_news_block_thumb">
-                            <img src="http://fit.tdc.edu.vn/files/large/6ba9ad9cf9430f7862e80d77fe2b0fe3.jpg">
-                        </div>
-                    </div>
-                    <div class="col-md-7 top_news_block_desc">
-                        <div class="row">
-                            <div class="col-md-3 col-xs-3 topnewstime">
-                                <span class="topnewsdate"><?php echo $day  ?></span><br>
-                                <span class="topnewsmonth">Tháng <?php echo $post_month ?></span><br>
-                            </div>
-                            <div class="col-md-9 col-xs-9 shortdesc">
-                                <?php
-                                the_title( sprintf( '<h4 class="h4"><a class="abc" href="%s">', esc_url( get_permalink() ) ), '</a></h4>' );
-                                ?>
-                                <p><?php
-                                    $excerpt = get_the_excerpt();
-                                    $excerpt = wp_trim_words($excerpt, 30, '.');
-                                    echo $excerpt;
-                                    ?>
-                                    <a class="abc" href="<?php the_permalink(); ?>">[...]</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2"></div>
-    </div>
 
-</div>
-<?php
-
-<<<<<<< HEAD
+<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div class="list_news">
 		<div class="list_new_view">
 			<div class="row">
@@ -487,106 +453,30 @@ $post_month = get_the_date('m', $post->ID)
 				</div>
 				<!-- <div class="col-md-3">
 				</div> -->
-				<!-- <div class="col-md-3 col-sm-6 ">
+				<div class="col-md-3 col-sm-6 ">
 					<div class="vc_column-inner ">
 						<div class="wpb_wrapper">
 							<div class="wpb_text_column wpb_content_element ">
 								<div class="wpb_wrapper">
 									<h4>Comment</h4>
-									<hr>
+									<hr class="line">
 									<ul class="list_1">
-										<li><a href="http://fit.tdc.edu.vn/tuyen-sinh/nganh-tin-hoc-ung-dung">Bài viết hay quá</a></li>
-										<li><a href="http://fit.tdc.edu.vn/tuyen-sinh/nganh-truyen-thong-va-mang-may-tinh-tc">Cảm ơn tác giả</a></li>
-										<li><a href="http://fit.tdc.edu.vn/tuyen-sinh/nganh-truyen-thong-da-phuong-tien">Bài viết thật hữu ít</a></li>
+										<a href="http://fit.tdc.edu.vn/tuyen-sinh/nganh-tin-hoc-ung-dung">Bài viết hay quá</a>
+										<br>
+										<a href="http://fit.tdc.edu.vn/tuyen-sinh/nganh-truyen-thong-va-mang-may-tinh-tc">Cảm ơn tác giả</a>
+										<br>
+										<a href="http://fit.tdc.edu.vn/tuyen-sinh/nganh-truyen-thong-da-phuong-tien">Bài viết thật hữu </a>
 									</ul>
 
 								</div>
 							</div>
 						</div>
 					</div>
-				</div> -->
+				</div>
 			</div>
 		</div>
 	</div>
 
 </article><!-- #post-${ID} -->
-=======
-$post = get_post();
-$date = $post->post_date;
-$day = date("j", strtotime($date));
-$month = date("F", strtotime($date));
 
-$post_date = get_the_date('d', $post->ID);
-$post_month = get_the_date('m', $post->ID)
-?>
-<div class="container">
-    <div class="row">
-        <div class="col-md-2"></div>
-        <div class="col-md-6">
-            <div class="list_new_view">
-                <div class="row">
-                    <div class="col-md-5">
-                        <div class="top_news_block_thumb">
-                            <img src="http://fit.tdc.edu.vn/files/large/6ba9ad9cf9430f7862e80d77fe2b0fe3.jpg">
-                        </div>
-                    </div>
-                    <div class="col-md-7 top_news_block_desc">
-                        <div class="row">
-                            <div class="col-md-3 col-xs-3 topnewstime">
-                                <span class="topnewsdate"><?php echo $day  ?></span><br>
-                                <span class="topnewsmonth">Tháng <?php echo $post_month ?></span><br>
-                            </div>
-                            <div class="col-md-9 col-xs-9 shortdesc">
-                                <?php
-                                the_title( sprintf( '<h4 class="h4"><a class="abc" href="%s">', esc_url( get_permalink() ) ), '</a></h4>' );
-                                ?>
-                                <p><?php
-                                    $excerpt = get_the_excerpt();
-                                    $excerpt = wp_trim_words($excerpt, 30, '.');
-                                    echo $excerpt;
-                                    ?>
-                                    <a class="abc" href="<?php the_permalink(); ?>">[...]</a>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-2"></div>
-    </div>
 
-</div>
->>>>>>> 5_18_PhamHuuKy
-=======
-=======
->>>>>>> 13_20_LePhuongLoc
-<?php
-/**
- * Template part for displaying post archives and search results
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Twenty_One
- * @since Twenty Twenty-One 1.0
- */
-
-?>
-
-<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-
-	<?php get_template_part( 'template-parts/header/excerpt-header', get_post_format() ); ?>
-
-	<div class="entry-content">
-		<?php get_template_part( 'template-parts/excerpt/excerpt', get_post_format() ); ?>
-	</div><!-- .entry-content -->
-
-	<footer class="entry-footer default-max-width">
-		<?php twenty_twenty_one_entry_meta_footer(); ?>
-	</footer><!-- .entry-footer -->
-</article><!-- #post-${ID} -->
-<<<<<<< HEAD
->>>>>>> 8_20_LePhuongLoc
-=======
->>>>>>> 13_20_LePhuongLoc
